@@ -1,0 +1,44 @@
+<div class = "mainboxDiv">
+
+  <p class = "welcomeMessage">
+    Welcome to passcheck! Choose your desired parameters, length, and acceptable
+    characters. All other characters will be disallowed.
+  </p>
+
+  <p class = "monText">
+    Minimum 1 number
+  </p>
+  <input id = " minOneNumber" [checked] = "password.minOneNumber" (change) = "password.minOneNumber = !password.minOneNumber" class =  "monCheckbox" required = "" type = checkbox>
+
+  <p class = "molText">
+    Minimum 1 letter
+  </p>
+  <input id = "minOneLetter" [checked] = "password.minOneLetter" (change) = "password.minOneLetter = !password.minOneLetter" class = "molCheckbox" required = "" type = checkbox>
+
+  <p class = "moscText">
+    Minimum 1 special character
+  </p>
+  <input id = "minOneSpecialCharacter" [checked] = "password.minOneSpecialCharacter" (change) = "password.minOneSpecialCharacter = !password.minOneSpecialCharacter" class = "moscCheckbox" required = "" type = checkbox>
+
+  <p class = "minText">
+    ↖ Minimum length
+  </p>
+  <input id = "minLength" [(ngModel)] = "password.minLength" class = "minInputBox" required = "" type = number>
+
+  <p class = "maxText">
+    Maximum length ↗
+  </p>
+  <input id = "maxLength" [(ngModel)] = "password.maxLength" class = "maxInputBox" required = "" type = number>
+
+  <p class = "acText">
+    Acceptable characters ↗️
+  </p>
+  <input id = "acceptableCharacters" [(ngModel)] = "password.acceptableCharacters" class = "acInputBox" required = "" type = text>
+
+  <p class = "epText">
+    Enter your password ↗️
+  </p>
+  <input id = "pass" [(ngModel)] = "password.pass" class = "epInputBox" required = "" type = text>
+
+  <button class = "submitButton" (click) = "submitClick()"> Submit </button>
+</div>

@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  background-color: #E2E2E2;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Post No Bills Colombo";
+  src: local("Post No Bills Colombo"), url(./assets/fonts/postnobillscolombo/postnobillscolombo-regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url(./assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf) format("truetype");
+}
