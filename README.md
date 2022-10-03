@@ -1,6 +1,6 @@
 # Passcheck
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4. The main goal of this web application is to allow users to set their desired password parameters and check the validty of an inputted password. 
 
 ## Development server
 
