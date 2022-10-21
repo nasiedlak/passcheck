@@ -21,12 +21,12 @@
   <input id = "minOneSpecialCharacter" [checked] = "password.minOneSpecialCharacter" (change) = "password.minOneSpecialCharacter = !password.minOneSpecialCharacter" class = "moscCheckbox" required = "" type = checkbox>
 
   <p class = "minText">
-    ↖ Minimum length
+    ↖ Min. length
   </p>
   <input id = "minLength" [(ngModel)] = "password.minLength" class = "minInputBox" required = "" type = number>
 
   <p class = "maxText">
-    Maximum length ↗
+    Max. length ↗
   </p>
   <input id = "maxLength" [(ngModel)] = "password.maxLength" class = "maxInputBox" required = "" type = number>
 

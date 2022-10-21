@@ -9,7 +9,7 @@ import { Password } from '../password';
 export class MainboxComponent implements OnInit {
 
   password: Password = {
-    pass: "hellopwojnwijn",
+    pass: "",
     minOneNumber: false,
     minOneLetter: false,
     minOneSpecialCharacter: false,
