@@ -1,5 +1,9 @@
 :root {
-   --input-custom-color: #E2E2E2;
+   --input-custom-color: #333333;
+}
+
+*:focus {
+    outline: none;
 }
 
 .mainboxDiv {
@@ -15,10 +19,10 @@
 
   background-color: #E2E2E2;
   border: 0px solid #E2E2E2;
-  box-shadow: 1px 0px 0px 7px #3E5DFF;
-  border-radius: 20px;
+  box-shadow: 0px 0px 0px 5px #DCA28B;
+  border-radius: 0px;
 
-  filter: drop-shadow(11px 11px 0.5px rgba(60, 56, 251, 0.53));
+  filter: drop-shadow(10px 10px 0px rgba(220, 162, 139, 0.21));
 
 }
 
@@ -37,7 +41,7 @@
   line-height: 27px;
   letter-spacing: -0.02em;
 
-  color: #3E5DFF;
+  color: #333333;
 
   mix-blend-mode: normal;
 
@@ -59,7 +63,7 @@
 
   letter-spacing: -0.02em;
 
-  color: #17A700;
+  color: #333333;
 
 }
 
@@ -74,13 +78,10 @@
   top: 121px;
 
   background: #E2E2E2;
-  border: 0px solid #E2E2E2;
-  box-shadow: 0px 0px 0px 4px #17A700;
-  border-radius: 15px;
-
-  background-color: #17A700;
-
-  border-radius: 100px;
+  border: 1px solid #E2E2E2;
+  box-shadow: 0px 0px 0px 2px #DCA28B;
+  border-radius: 10px;
+  accent-color: #DCA28B;
 
 }
 
@@ -99,7 +100,7 @@
   line-height: 27px;
   letter-spacing: -0.02em;
 
-  color: #17A700;
+  color: #333333;
 
 }
 
@@ -114,9 +115,10 @@
   top: 180px;
 
   background: #E2E2E2;
-  border: 0px solid #E2E2E2;
-  box-shadow: 0px 0px 0px 4px #17A700;
-  border-radius: 15px;
+  border: 1px solid #E2E2E2;
+  box-shadow: 0px 0px 0px 2px #DCA28B;
+  border-radius: 10px;
+  accent-color: #DCA28B;
 
 }
 
@@ -135,7 +137,7 @@
   line-height: 27px;
   letter-spacing: -0.02em;
 
-  color: #17A700;
+  color: #333333;
 
 }
 
@@ -151,8 +153,9 @@
 
   background: #E2E2E2;
   border: 1px solid #E2E2E2;
-  box-shadow: 0px 0px 0px 4px #17A700;
-  border-radius: 15px;
+  box-shadow: 0px 0px 0px 2px #DCA28B;
+  border-radius: 10px;
+  accent-color: #DCA28B;
 
 }
 
@@ -164,18 +167,18 @@
   width: 115px;
   height: 44px;
   left: 34px;
-  top: 305px;
+  top: 316px;
 
   font-family: 'Inter';
   font-style: normal;
   font-size: 22px;
   line-height: 27px;
-  color: #17A700;
+  color: #333333;
 
   background: #E2E2E2;
   border: 0px solid #E2E2E2;
-  box-shadow: 0px 0px 0px 5px #17A700;
-  border-radius: 20px;
+  box-shadow: 0px 0px 0px 2px #DCA28B;
+  border-radius: 5px;
   padding: 0 10px;
 
 }
@@ -190,8 +193,8 @@
   position: absolute;
   width: 268px;
   height: 40px;
-  left: 50px;
-  top: 360px;
+  left: 20px;
+  top: 350px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -200,7 +203,7 @@
   line-height: 27px;
   letter-spacing: -0.02em;
 
-  color: #17A700;
+  color: #333333;
 
 }
 
@@ -212,18 +215,18 @@
   width: 115px;
   height: 44px;
   left: 357px;
-  top: 305px;
+  top: 316px;
 
   font-family: 'Inter';
   font-style: normal;
   font-size: 22px;
   line-height: 27px;
-  color: #17A700;
+  color: #333333;
 
   background: #E2E2E2;
   border: 0px solid #E2E2E2;
-  box-shadow: 0px 0px 0px 5px #17A700;
-  border-radius: 20px;
+  box-shadow: 0px 0px 0px 2px #DCA28B;
+  border-radius: 5px;
   padding: 0 10px;
 
 }
@@ -238,8 +241,8 @@
   position: absolute;
   width: 268px;
   height: 40px;
-  left: 190px;
-  top: 335px;
+  left: 225px;
+  top: 350px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -248,7 +251,7 @@
   line-height: 27px;
   letter-spacing: -0.02em;
 
-  color: #17A700;
+  color: #333333;
 
 }
 
@@ -267,7 +270,7 @@
   line-height: 27px;
   letter-spacing: -0.02em;
 
-  color: #17A700;
+  color: #333333;
 
 }
 
@@ -285,13 +288,14 @@
   font-style: normal;
   font-size: 22px;
   line-height: 27px;
-  color: #17A700;
+  color: #333333;
 
   background: #E2E2E2;
   border: 0px solid #E2E2E2;
-  box-shadow: 0px 0px 0px 5px #17A700;
-  border-radius: 20px;
+  box-shadow: 0px 0px 0px 2px #DCA28B;
+  border-radius: 5px;
   padding: 0 10px;
+
 
 }
 
@@ -315,7 +319,7 @@
   line-height: 27px;
   letter-spacing: -0.02em;
 
-  color: #3E5DFF;
+  color: #333333;
 
 }
 
@@ -333,12 +337,12 @@
   font-style: normal;
   font-size: 22px;
   line-height: 27px;
-  color: #3E5DFF;
+  color: #333333;
 
   background: var(--input-custom-color);
   border: 0px solid #E2E2E2;
-  box-shadow: 0px 0px 0px 5px #3E5DFF;
-  border-radius: 20px;
+  box-shadow: 0px 0px 0px 2px #DCA28B;
+  border-radius: 5px;
   padding: 0 10px;
 
 }
@@ -368,20 +372,18 @@
   font-size: 22px;
   line-height: 27px;
   letter-spacing: -0.02em;
-  color: #3E5DFF;
+  color: #DCA28B;
 
   background: #E2E2E2;
   border: 0px solid #E2E2E2;
-  box-shadow: 0px 0px 0px 5px #3E5DFF;
-  border-radius: 20px;
+  box-shadow: 0px 0px 0px 2px #DCA28B;
+  border-radius: 0px;
 
 }
 
 .submitButton:hover {
-  background-color:#3E5DFF;
+  background-color:#DCA28B;
   color: #E2E2E2;
   transition: 0.5s;
   cursor: pointer;
 }
-
-.submitButton:
