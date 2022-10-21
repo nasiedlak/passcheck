@@ -10,4 +10,6 @@ To run the application, clone the repository to a local directory and run `ng se
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-<img width="1106" alt="Screen Shot 2022-10-21 at 2 58 12 PM" src="https://user-images.githubusercontent.com/93564797/197278945-3ff43b27-a431-44d7-97ad-b531e6c5cd44.png">
+## UI
+
+![passcheck](https://user-images.githubusercontent.com/93564797/197279739-c978e5e3-4fef-408f-bfa0-7ca1af1bbf1d.jpeg)
