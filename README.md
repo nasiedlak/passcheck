@@ -1,6 +1,6 @@
 ## Passcheck
 
-The main goal of this web application is to allow users to set their desired password parameters and check the validty of an inputted password. 
+The main goal of this web application developed using Angular is to allow users to set their desired password parameters and check the validty of an inputted password.  
 
 ## Run
 
